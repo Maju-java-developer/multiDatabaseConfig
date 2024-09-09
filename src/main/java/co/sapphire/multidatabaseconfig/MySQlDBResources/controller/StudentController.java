@@ -18,8 +18,12 @@ public class StudentController {
     private final StudentRepo studentRepo;
 
     @PostMapping("getAll")
-    public List<Student> getAll() {
-        return studentRepo.findAll();
+    public List<?> getAll() {
+        return studentRepo.findBy();
+    }
+    @PostMapping("getAllStudent")
+    public List<?> getAllStudent() {
+        return studentRepo.getAllStudentDetails();
     }
 
     @PostMapping("addStudent")

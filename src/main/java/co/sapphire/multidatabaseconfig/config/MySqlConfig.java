@@ -13,7 +13,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 import javax.sql.DataSource;
 
-@Configuration
+//@Configuration
 @EnableTransactionManagement
 @EnableJpaRepositories(
         basePackages = "co.sapphire.multidatabaseconfig.MySQlDBResources.repo",

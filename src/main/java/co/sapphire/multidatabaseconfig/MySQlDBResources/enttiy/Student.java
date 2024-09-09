@@ -15,4 +15,7 @@ public class Student {
     @Id
     private Integer id;
     private String studentName;
+    private String contact;
+    private String address;
+    private String department;
 }

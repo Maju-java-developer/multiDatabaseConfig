@@ -4,7 +4,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
 
 
-@Configuration
+//@Configuration
 @EnableMongoRepositories(basePackages = "co.sapphire.multidatabaseconfig.mongoDbResources.repo")
 public class MongoDbConfig {
 }
